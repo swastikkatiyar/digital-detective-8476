@@ -30,3 +30,16 @@
 | **10** | `'0b1010'`[cite: 10] | `'0xa'`[cite: 10] |
 | **25** | `'0b11001'`[cite: 10] | `'0x19'`[cite: 10] |
 | **255** | `'0b11111111'`[cite: 10] | `'0xff'`[cite: 10] |
+
+
+### Task 5.4: How is Text Stored?
+
+* **ASCII Decimal Codes:**
+  * Uppercase letter **A**: `65` (Decimal)
+  * Lowercase letter **a**: `97` (Decimal)
+
+* **Why a computer needs an encoding standard to store text:**  
+  Computers can only process numbers (bits and bytes), so an encoding standard provides a universal rulebook that maps specific letters, numbers, and symbols to unique numeric values so text can be accurately stored, transmitted, and displayed.
+
+* **Example of a character not part of basic ASCII:**  
+  An emoji (such as `😊`) or a non-English accented character (such as `é` or `ñ`), which requires a wider encoding standard like UTF-8.
