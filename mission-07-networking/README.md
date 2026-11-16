@@ -17,3 +17,15 @@
 * **`ping -c 4 8.8.8.8`**: Tested network reachability and latency to Google's public DNS server. Successfully transmitted and received 4 packets with 0% packet loss.
 * **`nslookup google.com`**: Performed a DNS lookup to resolve the human-readable domain name (`google.com`) into its corresponding numeric IP address using the local network's DNS server.
 * **`traceroute 8.8.8.8`**: Traced the sequence of network router hops and round-trip latency times taken by packets to travel from the local machine to the destination server.
+
+
+
+## Task 7.3: Documentation and Git Commit
+
+To record and sync the completion of Mission 7, the following commands were executed in the repository terminal:
+
+```bash
+git status
+git add .
+git commit -m "Completed Mission 7: Networking concepts and observation tools"
+git push origin main
