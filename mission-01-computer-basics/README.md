@@ -1,3 +1,4 @@
+Task 1.1
 | Stage | What happens in your example? | Possible hardware / component |
 | :--- | :--- | :--- |
 | **Input** | When you press a key on the keyboard, it registers the keystroke. | Keyboard |
@@ -6,6 +7,7 @@
 | **Storage** | The typed document or character is saved long-term. | SSD, hard disk, or cloud storage |
 
 
+Task 1.2
 | Item / software name | Hardware or software? | Software type (if applicable) | Purpose |
 | :--- | :--- | :--- | :--- |
 | Mouse | Hardware | Not applicable | Used to point, click, and navigate the graphical user interface. |
@@ -16,3 +18,11 @@
 | Google Chrome | Software | Application software | Used for browsing the web[cite: 3, 5]. |
 | VLC | Software | Application software | Used for playing media files[cite: 3, 5]. |
 | Photo Booth | Software | Application software | Used for taking snapshots and recording videos with effects. |
+
+
+Task 1.3
+| System | Main purpose | One input | One output |
+| :--- | :--- | :--- | :--- |
+| Smart Watch | Monitor health, sync notifications, and handle calls | Touch input / button press | Display screen output |
+| Washing Machine | Wash and dry clothes automatically via programmed cycles | Button press / cycle selection | Cleaned clothes / LED display status |
+| CCTV Camera | Record and store security footage | Visual camera sensor input | Displaying live or recorded video feed |
