@@ -26,3 +26,13 @@ Redacted raw IP details and summarized command behavior conceptually in the docu
 ## 8. Commit details
 * **Commit message:** "Explain networking concepts and website communication"[cite: 14]
 * **Status:** Confirmed visible and pushed successfully to GitHub[cite: 12, 14].
+
+
+### Task 7.3: What Happens When You Open a Website?
+
+1. **User Request:** You enter a website URL (like `https://www.google.com`) into your web browser, which acts as the **client**[cite: 11].
+2. **DNS Lookup:** The browser checks its cache and queries a **DNS** (Domain Name System) server to translate the human-readable domain name into the server's numeric IP address[cite: 11].
+3. **Routing & Connection:** Your computer sends the connection request through your local network **router**, which forwards the data packets across the internet toward the destination IP address[cite: 11].
+4. **Protocol Handshake:** The **client** and the destination web **server** establish a connection using standard communication **protocols** (such as TCP/IP and HTTP/HTTPS)[cite: 11].
+5. **Server Processing:** The web **server** receives the request, processes it, and prepares the required webpage files (HTML, CSS, images)[cite: 11].
+6. **Response & Display:** The **server** sends the data packets back through the network to your browser (**client**), which reassembles and renders the webpage on your screen[cite: 11].
