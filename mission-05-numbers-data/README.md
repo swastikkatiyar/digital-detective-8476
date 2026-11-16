@@ -9,3 +9,18 @@
 | **Convert hexadecimal A to decimal.** | In hexadecimal, $A = 10$[cite: 10].<br>$(10 \times 16^0) = 10 \times 1$<br>**Answer:** `10₁₀` |
 | **Convert hexadecimal 1F to decimal.** | $(1 \times 16^1) + (15 \times 16^0)$ where $F = 15$[cite: 10].<br>$= 16 + 15$<br>**Answer:** `31₁₀` |
 | **Convert binary 1111 to hexadecimal.** | Group bits from right: `1111₂` = $8 + 4 + 2 + 1 = 15_{10}$.<br>In hexadecimal, decimal $15 = F$[cite: 10].<br>**Answer:** `F₁₆` |
+
+
+### Task 5.2: Verify Using Python
+
+| Expression tested | Python result | Matches manual calculation? |
+| :--- | :--- | :--- |
+| `bin(13)` | `'0b1101'` | Yes (`1101₂`) |
+| `bin(25)` | `'0b11001'` | Yes (`11001₂`) |
+| `int('1010', 2)` | `10` | Yes (`10₁₀`) |
+| `int('1101', 2)` | `13` | Yes (`13₁₀`) |
+| `int('A', 16)` | `10` | Yes (`10₁₀`) |
+| `int('1F', 16)` | `31` | Yes (`31₁₀`) |
+| `hex(int('1111', 2))` | `'0xf'` | Yes (`F₁₆`) |
+
+
