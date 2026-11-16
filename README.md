@@ -1,14 +1,43 @@
-Diwali Independent Learning Assignment: The Digital Detective
-I'm excited to explore my computer and build a mini system report for the same!
+# Digital Detective - Diwali Independent Learning Assignment
 
-- [Mission 0: Setup](./mission-00-setup/README.md)
-- [Mission 1: Computer Basics](./mission-01-computer-basics/README.md)
-*Note: Each mission is completed, documented, and committed separately.*
+Welcome to my repository for **The Digital Detective** independent learning assignment! This project investigates how computers work, explores operating system fundamentals, terminal operations, programming execution, data representation, version control, and networking.
 
-## My Learning
+---
 
-Throughout the progress of "The Digital Detective" assignment, I have explored and gained hands-on experience in several core computer science and software development areas:
+## Mission Index
 
-1. **Terminal Operations & File Management:** Mastered navigating file directories using the command line, manipulating files safely (`cp`, `mv`, `rm`), using flags to modify command behavior (`ls -la -h`), and chaining operations together with pipes (`|`).
-2. **Operating System Fundamentals:** Explored how operating systems manage system resources, monitor running processes via PIDs, handle file permissions, and allocate storage.
-3. **Data Representation & Version Control:** Understood how data is represented via binary and hexadecimal numbering systems, and learned basic version control workflows using Git to track changes, create branches, and publish updates.
+| Mission | Folder / README Link | Topic / Focus | Status |
+| :--- | :--- | :--- | :--- |
+| **Mission 0** | [`mission-00-setup/README.md`](mission-00-setup/README.md) | Repository and workspace setup | Completed |
+| **Mission 1** | [`mission-01-computer-basics/README.md`](mission-01-computer-basics/README.md) | Computer fundamentals and IPOS | Completed |
+| **Mission 2** | [`mission-02-terminal/README.md`](mission-02-terminal/README.md) | Terminal and file management | Completed |
+| **Mission 3** | [`mission-03-operating-system/README.md`](mission-03-operating-system/README.md) | Operating system, processes, and permissions | Completed |
+| **Mission 4** | [`mission-04-programs/README.md`](mission-04-programs/README.md) | Program execution (`hello.py`) | Completed |
+| **Mission 5** | [`mission-05-numbers-data/README.md`](mission-05-numbers-data/README.md) | Number systems, Python converter | Completed |
+| **Mission 6** | [`mission-06-git-github/README.md`](mission-06-git-github/README.md) | Git workflow, branches, and PRs | Completed |
+| **Mission 7** | [`mission-07-networking/README.md`](mission-07-networking/README.md) | Computer networks and observation tools | Completed |
+| **Mission 8** | [`mission-08-final-report/README.md`](mission-08-final-report/README.md) | Final report and submission | Completed |
+
+---
+
+## Topics Explored
+
+* **Workspace Setup:** Organizing projects with structured folders and version control.
+* **Computer Basics:** IPOS cycle (Input, Processing, Output, Storage), hardware, software, and everyday systems.
+* **Terminal Operations:** Navigating directories, file management, flags, pipes, and package managers.
+* **Operating Systems:** Process management, PIDs, absolute/relative paths, file permissions (`rwx`), and OS responsibilities.
+* **Program Execution:** Compilers vs. interpreters and running Python scripts.
+* **Data Representation:** Manual binary/hexadecimal conversions, Python built-ins, text encoding (ASCII/UTF-8), and the custom `number_converter.py` tool.
+* **Version Control:** Git staging, commits, branches (`update-about`), and Pull Requests.
+* **Networking:** LAN, MAN, WAN, DNS, routers, protocols, packet switching, client-server architecture, and tools (`ping`, `nslookup`, `traceroute`).
+
+---
+
+## Running the Number Converter
+
+To test the number conversion program created in Mission 5:
+
+1. Open your Terminal and navigate to the assignment repository.
+2. Change directory into the Mission 5 folder:
+   ```bash
+   cd mission-05-numbers-data
