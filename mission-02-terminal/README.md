@@ -48,3 +48,14 @@ The Pipe Symbol (|): Acts like a conveyor belt, taking the data stream generated
 The Left Side Contribution (ls -la -h): Generates the raw data stream by gathering a detailed, human-readable list of all files and folders (including hidden ones).
 
 The Right Side Contribution (head -n 5): Receives that data stream, processes it, and filters it down to keep only the first 5 lines, discarding the rest.
+
+
+### Task 2.4: Understand Package Managers
+
+* **What is a package manager and why is it useful?**  
+  A package manager is a software tool that automates installing, updating, configuring, and removing software on an operating system. It is useful because it manages dependencies automatically, ensuring software components are compatible and up-to-date without requiring manual downloads from the web.
+
+* **Checking Homebrew version and installed packages (macOS):**
+  ```bash
+  brew --version
+  brew list
