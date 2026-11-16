@@ -1,0 +1,2 @@
+one line of text
+a second line without removing the first line
