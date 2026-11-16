@@ -10,3 +10,10 @@
 | **Protocol** | A standardized set of rules and formats that devices must follow to communicate and exchange data accurately[cite: 12]. | HTTP/HTTPS for web browsing or TCP/IP for data transmission. |
 | **Packet switching** | A method of dividing data into small blocks (packets) that travel independently across a network and reassemble at the destination[cite: 12]. | Streaming a video where data chunks travel through different router paths. |
 | **Client-server** | A distributed architecture model where a client requests a service or resource, and a server provides it[cite: 12]. | Your web browser (client) requesting a web page from a remote host (server). |
+
+
+### Task 7.2: Observing Network Information
+
+* **`ping -c 4 8.8.8.8`**: Tested network reachability and latency to Google's public DNS server. Successfully transmitted and received 4 packets with 0% packet loss.
+* **`nslookup google.com`**: Performed a DNS lookup to resolve the human-readable domain name (`google.com`) into its corresponding numeric IP address using the local network's DNS server.
+* **`traceroute 8.8.8.8`**: Traced the sequence of network router hops and round-trip latency times taken by packets to travel from the local machine to the destination server.
