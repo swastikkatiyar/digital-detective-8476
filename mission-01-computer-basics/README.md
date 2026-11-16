@@ -6,6 +6,9 @@ Task 1.1
 | **Output** | The computer displays the character, number, or function visually. | Screen / monitor |
 | **Storage** | The typed document or character is saved long-term. | SSD, hard disk, or cloud storage |
 
+Task 1.1 Explanation
+IPOS Data Flow Summary:
+This trace demonstrates how a simple keystroke travels through the computer architecture. The Input phase captures the physical action, the Processing phase interprets the instructions via the CPU, the Output phase presents the result visually, and the Storage phase ensures data persistence across sessions.
 
 Task 1.2
 | Item / software name | Hardware or software? | Software type (if applicable) | Purpose |
@@ -19,6 +22,9 @@ Task 1.2
 | VLC | Software | Application software | Used for playing media files[cite: 3, 5]. |
 | Photo Booth | Software | Application software | Used for taking snapshots and recording videos with effects. |
 
+Task 1.2 Explanation
+Hardware vs. Software Classification:
+Physical components (Hardware) provide the tangible foundation for computing, while instructions and programs (Software) manage resources and execute tasks. Software is further categorized into Utility tools for system maintenance and Application software for user-specific productivity.
 
 Task 1.3
 | System | Main purpose | One input | One output |
@@ -26,3 +32,7 @@ Task 1.3
 | Smart Watch | Monitor health, sync notifications, and handle calls | Touch input / button press | Display screen output |
 | Washing Machine | Wash and dry clothes automatically via programmed cycles | Button press / cycle selection | Cleaned clothes / LED display status |
 | CCTV Camera | Record and store security footage | Visual camera sensor input | Displaying live or recorded video feed |
+
+Task 1.3 Explanation
+Embedded Computer Systems Overview:
+Everyday appliances like smart watches, washing machines, and CCTV units rely on embedded microcontrollers. They function similarly to general-purpose computers by accepting physical or digital inputs, executing control logic internally, and delivering automated mechanical or visual outputs.
