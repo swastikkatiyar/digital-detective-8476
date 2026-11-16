@@ -55,7 +55,6 @@ The Right Side Contribution (head -n 5): Receives that data stream, processes it
 * **What is a package manager and why is it useful?**  
   A package manager is a software tool that automates installing, updating, configuring, and removing software on an operating system. It is useful because it manages dependencies automatically, ensuring software components are compatible and up-to-date without requiring manual downloads from the web.
 
-* **Checking Homebrew version and installed packages (macOS):**
-  ```bash
+* **Checking Homebrew version and installed packages (macOS):*
   brew --version
   brew list
