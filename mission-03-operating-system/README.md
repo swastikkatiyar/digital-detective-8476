@@ -36,4 +36,15 @@
 
 
 
-  
+### Task 3.4: Explain Operating-System Responsibilities
+
+| OS responsibility | Your explanation | Example |
+| :--- | :--- | :--- |
+| **Process management** | The OS creates, schedules, manages, and terminates processes (running programs) to ensure fair CPU access. | Running multiple applications simultaneously like a browser and a text editor. |
+| **Memory management** | The OS allocates and deallocates memory space for programs currently running, preventing applications from interfering with each other's data. | Assigning RAM to open tabs in Chrome and reclaiming it when closed. |
+| **Device management** | The OS controls and communicates with hardware devices and peripherals using specialized drivers. | Sending a document from your computer to a connected printer or reading a USB drive. |
+| **File management** | The OS organizes, creates, reads, writes, and secures files and directories within a hierarchical file system structure. | Saving a Word document into a specific folder on your hard drive. |
+| **User interface / shell** | The OS provides a medium (CLI or GUI) through which users and applications can interact with the computer system. | Using the Terminal (CLI) or desktop icons and windows (GUI) to interact with files. |
+| **Security and permissions** | The OS enforces access control, user authentication, and file permissions to protect system resources from unauthorized access. | Restricting a standard user account from modifying system configuration or application files. |
+
+
