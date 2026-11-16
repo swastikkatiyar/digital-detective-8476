@@ -1,11 +1,29 @@
-### Task 4.2: Compare Compiler and Interpreter
+# Mission 4 - How programs run
 
-| Point | Compiler | Interpreter |
-| :--- | :--- | :--- |
-| **When translation / execution happens** | Translates the entire source code into machine code *before* execution, generating a standalone executable file[cite: 9]. | Translates and executes the source code line-by-line *at runtime* during execution[cite: 9]. |
-| **Typical output** | An intermediate or executable machine code file (e.g., `.exe` or binary)[cite: 9]. | Direct program output or runtime behavior without generating a separate compiled file[cite: 9]. |
-| **One example** | C / C++ (`gcc`)[cite: 9] | Python (`python3`)[cite: 9] or JavaScript[cite: 9]. |
-| **One advantage** | Compiled programs typically execute much faster because translation is already complete before running[cite: 9]. | Easier to test code and debug interactively on the fly since errors appear immediately line-by-line. |
+## 1. Task / objective
+Write, save, and execute a simple Python program (`hello.py`) from the terminal and compare how compilers and interpreters translate and execute source code[cite: 8].
 
-#### Explanation of Differences
-A compiler translates the entire source code of a program into machine code all at once before the program is run, which usually results in faster execution speeds[cite: 9]. In contrast, an interpreter reads, translates, and executes the code line-by-line dynamically at runtime, making it more flexible for testing and debugging[cite: 9]. Many modern languages use hybrid approaches that combine both techniques[cite: 9].
+## 2. Work completed
+* Completed **Task 4.1**: Created the `hello.py` file inside the mission folder containing a print statement displaying `"Hello from Python"`, and executed it successfully using Python 3[cite: 8, 9].
+* Completed **Task 4.2**: Filled out the compiler vs. interpreter comparison table and wrote a multi-sentence explanation contrasting execution workflows[cite: 8, 9].
+
+## 3. Commands / tools used
+* **Python 3 (`python3`)**: Executed `hello.py` from the command line[cite: 8, 9].
+* **Text Editor**: Created and edited Python source code[cite: 4, 8].
+
+## 4. My understanding
+Compilers translate entire source code files into machine code before execution, generating a standalone executable with high runtime speed. In contrast, interpreters read and execute source code line-by-line at runtime, offering greater flexibility and immediate feedback during development.
+
+## 5. Difficulties faced
+No major difficulties encountered during Python execution.
+
+## 6. How I resolved them
+Not applicable[cite: 13].
+
+## 7. Evidence / files
+* `mission-04-programs/README.md`
+* `mission-04-programs/hello.py`[cite: 4, 9]
+
+## 8. Commit details
+* **Commit message:** "Compare compilers and interpreters"[cite: 14]
+* **Status:** Confirmed visible and pushed successfully to GitHub[cite: 9, 14].

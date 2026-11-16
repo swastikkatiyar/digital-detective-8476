@@ -1,60 +1,31 @@
-### Task 2.1: Explore basic terminal operations
-| Operation / command name | What it does | What I observed |
-| :--- | :--- | :--- |
-| Current-directory display (`pwd`) | Prints the full absolute path of the directory you are currently working in. | Outputs the full path starting from the root directory. |
-| Directory listing (`ls`) | Lists all visible files and folders in your current location. | Shows a clean horizontal or vertical list of files and folder names. |
-| Detailed listing (`ls -l`) | Lists files in a long format with permissions, owner, size, and modification date. | Displays detailed rows including file permissions, links, owner name, size in bytes, and timestamp. |
-| Change directory (`cd`) | Navigates into a specified folder or moves up a directory (`cd ..`). | Changes the terminal prompt path to reflect the new active folder. |
-| Create directory (`mkdir`) | Creates a new folder (directory) in your current location. | Successfully provisions a new empty folder visible via `ls`. |
-| Create empty file (`touch`) | Creates a new, empty file of size zero. | Generates a blank file with the specified filename. |
-| Copy file (`cp`) | Makes a duplicate copy of a file with a new name or location. | Duplicates the source file to the destination path. |
-| Move / rename file (`mv`) | Moves a file to a new location or renames it. | Relocates or renames the target file instantly. |
-| Display file contents (`cat`) | Prints the text contents of a file directly inside the terminal window. | Outputs the entire text payload of the file onto the screen. |
+# Mission 2 - Terminal and file management
 
+## 1. Task / objective
+Use the command-line interface (CLI) to inspect directories, execute file management operations, understand command options (flags) and pipelines, and examine package managers[cite: 6].
 
-### Task 2.2: Terminal Practice Answers
+## 2. Work completed
+* Completed **Task 2.1**: Executed and documented basic terminal operations (`pwd`, `ls`, `ls -la -h`, `cd`, `mkdir`, `touch`, `cp`, `mv`, `cat`)[cite: 6].
+* Completed **Task 2.2**: Created the `terminal-practice` folder, practiced safe file modification, appending text without overwriting, backing up files, and answering conceptual comparison questions[cite: 6].
+* Completed **Task 2.3**: Compared standard directory listings with detailed flag outputs (`-la -h`) and experimented with piping output into text-limiting commands[cite: 7].
+* Completed **Task 2.4**: Explored Homebrew as the package manager on macOS, checking its version and managed packages[cite: 7].
 
-* **What is the difference between replacing a file's contents and adding text to the end?**  
-  Replacing (overwriting using `>`) completely clears out any existing content and replaces it with the new output, whereas adding text (appending using `>>`) preserves the original data and appends the new text to the end of the file.
+## 3. Commands / tools used
+* **Terminal (`zsh`)**: `pwd`, `ls`, `ls -la -h`, `cd`, `mkdir`, `touch`, `cp`, `mv`, `cat`[cite: 6].
+* **Homebrew (`brew`)**: Inspected package manager functionality and status[cite: 7].
 
-* **What is the difference between copying a file and moving a file?**  
-  Copying (`cp`) creates an identical duplicate file while keeping the original file intact[cite: 4], whereas moving (`mv`) relocates or renames the original file so it no longer resides in its original path.
+## 4. My understanding
+The command-line interface provides fast, precise control over the operating system's file hierarchy without relying on graphical menus. Flags modify command behavior to reveal hidden files or human-readable sizes, while pipes (`|`) allow the output of one command to serve as the input for another, enabling powerful data filtering.
 
-* **What information does the current-directory display provide?**  
-  It provides the absolute path starting from the root directory, indicating your exact current working location within the file system hierarchy[cite: 4].
+## 5. Difficulties faced
+Ensuring syntax accuracy when combining multiple directory flags (`-la -h`) in macOS zsh.
 
-* **Why is a directory-listing operation useful?**  
-  It allows you to inspect and view all visible files and folders in your current location so you can easily navigate and manage your project files[cite: 4].
+## 6. How I resolved them
+Tested each flag independently and consulted built-in manual documentation (`man ls`) to understand parameter behaviors[cite: 6, 7].
 
+## 7. Evidence / files
+* `mission-02-terminal/README.md`
+* `terminal-practice/` directory containing practice files[cite: 4, 6]
 
-### Task 2.3: Flags, Pipes, and Filters
-
-* **Display normal directory listing, then detailed listing with hidden files and human-readable sizes:**
-  ```bash
-  ls
-  ls -la -h
-(Here, -l gives a detailed long-format view, -a includes hidden files starting with ., and -h makes file sizes human-readable like 4K or 2M).
-
-Send the output of a detailed directory listing to a command that displays only the first few lines:
-
-Bash
-ls -la -h | head -n 5
-(Here, the pipe symbol | takes the output from the left side and passes it as input to the right side, restricting the final output to just the first 5 lines using -n 5).
-
-How the Pipe Operator Works:
-
-The Pipe Symbol (|): Acts like a conveyor belt, taking the data stream generated by the command on the left and feeding it directly as input to the command on the right.
-
-The Left Side Contribution (ls -la -h): Generates the raw data stream by gathering a detailed, human-readable list of all files and folders (including hidden ones).
-
-The Right Side Contribution (head -n 5): Receives that data stream, processes it, and filters it down to keep only the first 5 lines, discarding the rest.
-
-
-### Task 2.4: Understand Package Managers
-
-* **What is a package manager and why is it useful?**  
-  A package manager is a software tool that automates installing, updating, configuring, and removing software on an operating system. It is useful because it manages dependencies automatically, ensuring software components are compatible and up-to-date without requiring manual downloads from the web.
-
-* **Checking Homebrew version and installed packages (macOS):*
-  brew --version
-  brew list
+## 8. Commit details
+* **Commit message:** "Complete Terminal and file management mission"[cite: 14]
+* **Status:** Confirmed visible and pushed successfully to GitHub[cite: 7, 14].

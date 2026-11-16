@@ -1,38 +1,28 @@
-Task 1.1
-| Stage | What happens in your example? | Possible hardware / component |
-| :--- | :--- | :--- |
-| **Input** | When you press a key on the keyboard, it registers the keystroke. | Keyboard |
-| **Processing** | The CPU receives the signal, interprets the key pressed, and runs the command forward. | CPU / processor |
-| **Output** | The computer displays the character, number, or function visually. | Screen / monitor |
-| **Storage** | The typed document or character is saved long-term. | SSD, hard disk, or cloud storage |
+# Mission 1 - Computer fundamentals and IPOS
 
-Task 1.1 Explanation
-IPOS Data Flow Summary:
-This trace demonstrates how a simple keystroke travels through the computer architecture. The Input phase captures the physical action, the Processing phase interprets the instructions via the CPU, the Output phase presents the result visually, and the Storage phase ensures data persistence across sessions.
+## 1. Task / objective
+Explain how a computer receives input, processes information, produces output, and stores results (IPOS cycle), and classify hardware, software, and everyday computer systems[cite: 5].
 
-Task 1.2
-| Item / software name | Hardware or software? | Software type (if applicable) | Purpose |
-| :--- | :--- | :--- | :--- |
-| Mouse | Hardware | Not applicable | Used to point, click, and navigate the graphical user interface. |
-| Keyboard | Hardware | Not applicable | Used to enter text and input commands[cite: 3]. |
-| Printer | Hardware | Not applicable | Used to produce physical paper output of documents or images. |
-| Monitor | Hardware | Not applicable | Used to display visual outputs and windows[cite: 3]. |
-| Terminal | Software | Utility software | Used to interact with the OS via command-line interface[cite: 4, 5]. |
-| Google Chrome | Software | Application software | Used for browsing the web[cite: 3, 5]. |
-| VLC | Software | Application software | Used for playing media files[cite: 3, 5]. |
-| Photo Booth | Software | Application software | Used for taking snapshots and recording videos with effects. |
+## 2. Work completed
+* Completed **Task 1.1**: Traced an everyday computer activity (writing and saving a Python script) through the IPOS stages (Input, Processing, Output, Storage) with corresponding hardware components[cite: 5].
+* Completed **Task 1.2**: Listed four hardware items and four software examples (operating system, application, and utility software) along with their primary purposes[cite: 5].
+* Completed **Task 1.3**: Identified three everyday computer-based systems outside of laptops/phones (ATM, smart traffic signal, and ticket vending machine) detailing their purposes, inputs, and outputs[cite: 5].
 
-Task 1.2 Explanation
-Hardware vs. Software Classification:
-Physical components (Hardware) provide the tangible foundation for computing, while instructions and programs (Software) manage resources and execute tasks. Software is further categorized into Utility tools for system maintenance and Application software for user-specific productivity.
+## 3. Commands / tools used
+* **Text Editor / Markdown**: Used for structuring and documenting the IPOS and hardware/software classification tables[cite: 5, 13].
 
-Task 1.3
-| System | Main purpose | One input | One output |
-| :--- | :--- | :--- | :--- |
-| Smart Watch | Monitor health, sync notifications, and handle calls | Touch input / button press | Display screen output |
-| Washing Machine | Wash and dry clothes automatically via programmed cycles | Button press / cycle selection | Cleaned clothes / LED display status |
-| CCTV Camera | Record and store security footage | Visual camera sensor input | Displaying live or recorded video feed |
+## 4. My understanding
+Every computational device relies on the IPOS cycle to function. Hardware provides the physical circuitry and interface components, while software directs how data is manipulated and processed. Understanding these foundations clarifies how complex digital tasks break down into simpler hardware and software interactions.
 
-Task 1.3 Explanation
-Embedded Computer Systems Overview:
-Everyday appliances like smart watches, washing machines, and CCTV units rely on embedded microcontrollers. They function similarly to general-purpose computers by accepting physical or digital inputs, executing control logic internally, and delivering automated mechanical or visual outputs.
+## 5. Difficulties faced
+No major difficulties; selecting clear, distinct real-world systems for Task 1.3 required careful thought to ensure accurate input/output definitions.
+
+## 6. How I resolved them
+Cross-referenced standard embedded system models (like an ATM card reader input and cash dispenser output) to validate the workflow[cite: 5].
+
+## 7. Evidence / files
+* `mission-01-computer-basics/README.md` containing completed IPOS, hardware/software, and everyday system tables[cite: 5, 12].
+
+## 8. Commit details
+* **Commit message:** "Complete computer basics and IPOS mission"[cite: 14]
+* **Status:** Confirmed visible and pushed successfully to GitHub[cite: 6, 14].

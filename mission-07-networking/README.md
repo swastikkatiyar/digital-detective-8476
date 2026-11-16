@@ -1,31 +1,28 @@
-### Task 7.1: Network Concepts
+# Mission 7 - Computer networks
 
-| Concept | Explain it in your own words | Example |
-| :--- | :--- | :--- |
-| **LAN (Local Area Network)** | A network covering a small geographical area, connecting computers and devices within a single home, office, or lab[cite: 12]. | Connecting your laptop and printer to your home Wi-Fi router. |
-| **MAN (Metropolitan Area Network)** | A network covering a larger area than a LAN, typically spanning an entire city or a large university campus[cite: 12]. | A city-wide public Wi-Fi network or a university's inter-building network. |
-| **WAN (Wide Area Network)** | A network that spans large geographical areas, connecting multiple smaller networks across cities, countries, or globally[cite: 12]. | The Internet itself. |
-| **DNS (Domain Name System)** | A hierarchical system that translates human-friendly domain names into machine-readable IP addresses[cite: 12]. | Translating `google.com` into its corresponding numeric IP address. |
-| **Router** | A networking device that connects multiple networks together and forwards data packets between them[cite: 12]. | Your home broadband router directing internet traffic between your devices and your ISP. |
-| **Protocol** | A standardized set of rules and formats that devices must follow to communicate and exchange data accurately[cite: 12]. | HTTP/HTTPS for web browsing or TCP/IP for data transmission. |
-| **Packet switching** | A method of dividing data into small blocks (packets) that travel independently across a network and reassemble at the destination[cite: 12]. | Streaming a video where data chunks travel through different router paths. |
-| **Client-server** | A distributed architecture model where a client requests a service or resource, and a server provides it[cite: 12]. | Your web browser (client) requesting a web page from a remote host (server). |
+## 1. Task / objective
+Explain core network concepts and architecture types, observe network connectivity and DNS lookup behavior using terminal tools, and document website communication steps[cite: 11, 12].
 
+## 2. Work completed
+* Completed **Task 7.1**: Completed the network concepts table covering LAN, MAN, WAN, DNS, routers, protocols, packet switching, and client-server architecture[cite: 11, 12].
+* Completed **Task 7.2**: Executed network observation commands (`ping`, `nslookup`, `traceroute`) to test reachability, inspect DNS resolution, and trace packet hops while ensuring privacy-safe outputs[cite: 11, 12].
+* Completed **Task 7.3**: Documented network command usage and verification notes[cite: 12].
 
-### Task 7.2: Observing Network Information
+## 3. Commands / tools used
+* **Terminal Networking Tools**: `ping -c 4 8.8.8.8`, `nslookup google.com`, `traceroute 8.8.8.8`[cite: 12].
 
-* **`ping -c 4 8.8.8.8`**: Tested network reachability and latency to Google's public DNS server. Successfully transmitted and received 4 packets with 0% packet loss.
-* **`nslookup google.com`**: Performed a DNS lookup to resolve the human-readable domain name (`google.com`) into its corresponding numeric IP address using the local network's DNS server.
-* **`traceroute 8.8.8.8`**: Traced the sequence of network router hops and round-trip latency times taken by packets to travel from the local machine to the destination server.
+## 4. My understanding
+Computer networks connect devices globally using standardized protocols and packet switching. When accessing resources, clients query DNS servers to resolve human-readable domain names into numeric IP addresses, allowing routers to efficiently direct data packets across local and wide-area networks.
 
+## 5. Difficulties faced
+Ensuring that terminal network trace outputs did not accidentally expose local network identifiers or private IP addresses.
 
+## 6. How I resolved them
+Redacted raw IP details and summarized command behavior conceptually in the documentation[cite: 11, 12].
 
-## Task 7.3: Documentation and Git Commit
+## 7. Evidence / files
+* `mission-07-networking/README.md` containing completed network tables and tool logs[cite: 4, 12].
 
-To record and sync the completion of Mission 7, the following commands were executed in the repository terminal:
-
-```bash
-git status
-git add .
-git commit -m "Completed Mission 7: Networking concepts and observation tools"
-git push origin main
+## 8. Commit details
+* **Commit message:** "Explain networking concepts and website communication"[cite: 14]
+* **Status:** Confirmed visible and pushed successfully to GitHub[cite: 12, 14].
