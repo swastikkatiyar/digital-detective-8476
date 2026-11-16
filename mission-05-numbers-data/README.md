@@ -24,3 +24,9 @@
 | `hex(int('1111', 2))` | `'0xf'` | Yes (`F₁₆`) |
 
 
+### Task 5.3
+| Test number | Binary output | Hexadecimal output |
+| :--- | :--- | :--- |
+| **10** | `'0b1010'`[cite: 10] | `'0xa'`[cite: 10] |
+| **25** | `'0b11001'`[cite: 10] | `'0x19'`[cite: 10] |
+| **255** | `'0b11111111'`[cite: 10] | `'0xff'`[cite: 10] |
