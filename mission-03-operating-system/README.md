@@ -20,4 +20,20 @@
   1. A web browser application (e.g., Safari or Google Chrome).  
   2. A text editor or development tool (e.g., Visual Studio Code or Terminal).
 
+
+  ### Task 3.3: Understand Paths and Permissions
+
+* **Difference between Absolute and Relative Paths:**
+  * **Absolute Path:** Specifies a file or folder's exact location starting all the way from the root directory (`/`), such as `/Users/[redacted]/digital-detective-8476/mission-03-operating-system`.
+  * **Relative Path:** Specifies the location of a file or folder relative to your current working directory, such as `./mission-03-operating-system` or `../`.
+
+* **File Permissions Table (Owner Permissions):**
+  | Permission | Meaning | Example |
+  | :--- | :--- | :--- |
+  | **r (Read)** | Allows a file's contents to be read[cite: 9]. | Opening a text file[cite: 9]. |
+  | **w (Write)** | Allows a file to be changed, modified, or deleted[cite: 9]. | Editing or saving text inside a file[cite: 9]. |
+  | **x (Execute)** | Allows a file to be run; on a directory, allows access and traversal[cite: 9]. | Running a script or entering a folder[cite: 9]. |
+
+
+
   
