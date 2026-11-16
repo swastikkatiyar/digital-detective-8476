@@ -1,3 +1,4 @@
+### Task 2.1: Explore basic terminal operations
 | Operation / command name | What it does | What I observed |
 | :--- | :--- | :--- |
 | Current-directory display (`pwd`) | Prints the full absolute path of the directory you are currently working in. | Outputs the full path starting from the root directory. |
@@ -9,3 +10,18 @@
 | Copy file (`cp`) | Makes a duplicate copy of a file with a new name or location. | Duplicates the source file to the destination path. |
 | Move / rename file (`mv`) | Moves a file to a new location or renames it. | Relocates or renames the target file instantly. |
 | Display file contents (`cat`) | Prints the text contents of a file directly inside the terminal window. | Outputs the entire text payload of the file onto the screen. |
+
+
+### Task 2.2: Terminal Practice Answers
+
+* **What is the difference between replacing a file's contents and adding text to the end?**  
+  Replacing (overwriting using `>`) completely clears out any existing content and replaces it with the new output, whereas adding text (appending using `>>`) preserves the original data and appends the new text to the end of the file.
+
+* **What is the difference between copying a file and moving a file?**  
+  Copying (`cp`) creates an identical duplicate file while keeping the original file intact[cite: 4], whereas moving (`mv`) relocates or renames the original file so it no longer resides in its original path.
+
+* **What information does the current-directory display provide?**  
+  It provides the absolute path starting from the root directory, indicating your exact current working location within the file system hierarchy[cite: 4].
+
+* **Why is a directory-listing operation useful?**  
+  It allows you to inspect and view all visible files and folders in your current location so you can easily navigate and manage your project files[cite: 4].
